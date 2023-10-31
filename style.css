@@ -1,0 +1,135 @@
+*{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+h2{
+    font-size: 26px;
+}
+
+p{
+  font-size: 21px;  
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: none;
+}
+.gradiente{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, black,rgb(129, 129, 129));
+    overflow: none;
+}
+
+.card{        
+    position: relative;
+    width: 34%;
+    height: 80%;    
+    border-radius: 35px;
+
+}
+
+.gradiente-card{    
+    width: 100%;
+    height: 285px;
+    background: linear-gradient(45deg, black, rgb(56, 56, 56), rgb(129, 129, 129));
+    border-radius: 35px 35px 0 0;
+}
+
+.perfil{      
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    background-color: white;
+    height: 65%;
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+}
+
+.ft-perfil{    
+    width: 275px;
+    height: 1400px;
+    border-radius: 50%;
+    border: 5px solid white;   
+    transform: translate(0,-50%);
+    overflow: hidden;
+}
+.foto{    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-perfil{        
+    margin:0;
+    text-align: center;
+    background-color: white;    
+}
+
+.info-perfil > h2{    
+    padding: 10px;    
+    text-align: center;
+    background-color: white;
+    transform: translate(0, -120%);   
+}
+
+.info-perfil > p {
+    padding: 10px;    
+    text-align: center;
+    background-color: white;
+    transform: translate(0, -172%); 
+}
+
+.info-conta {
+    display: flex;    
+    align-content: space-around;
+    justify-content: center;
+    width: 100%;
+    height: 142%;
+    border-top: 2.5px solid rgb(129, 129, 129);
+    transform: translate(0,0);    
+}
+
+.followers{
+    padding: 30px;
+}
+.followers h2 {
+    transform: translate(18%, 10%);
+}
+
+.followers p{
+    transform: translate(-10%, -70%);
+}
+
+.likes{
+    padding: 30px;
+}
+
+.likes h2 {
+    transform: translate(0, 10%);
+}
+
+.likes p{
+    transform: translate(-10%, -70%);
+}
+
+.pictures{
+    padding: 30px;
+}
+
+.pictures h2 {
+    transform: translate(0, 10%);
+}
+
+.pictures p{
+    transform: translate(-10%, -70%);
+}
